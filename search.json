@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html#purpose-and-scope-of-machine-learning",
+    "href": "index.html#purpose-and-scope-of-machine-learning",
+    "title": "Introduction to Machine Learning",
+    "section": "Purpose and Scope of Machine Learning",
+    "text": "Purpose and Scope of Machine Learning\n\nWhat is the purpose of Machine Learning?\n\nLearn patterns from data automatically\nMake predictions or decisions without explicit programming\nImprove performance over time as more data becomes available\n\nKey Goals\n\nPrediction – Estimate future or unknown outcomes\nClassification – Assign labels to data points\nClustering – Discover hidden groupings in data\nAnomaly detection – Identify unusual patterns or events\n\nScope of Applications\n\nHealthcare, finance, marketing, industry, security, and more\nExamples: spam filtering, disease diagnosis, fraud detection, recommendation systems\n\nCore Idea\n\n“Let the data speak for itself.”"
+  },
+  {
+    "objectID": "index.html#recent-advancements-in-machine-learning",
+    "href": "index.html#recent-advancements-in-machine-learning",
+    "title": "Introduction to Machine Learning",
+    "section": "Recent Advancements in Machine Learning",
+    "text": "Recent Advancements in Machine Learning\n\nDeep Learning Breakthroughs\n\nTransformer architectures (e.g., BERT, GPT) revolutionized NLP\nDiffusion models for image generation (e.g., DALL·E, Stable Diffusion)\nSelf-supervised learning for more efficient training\n\nAutomated Machine Learning (AutoML)\n\nModel selection, tuning, and deployment made easier\nTools: Google AutoML, Auto-sklearn, H2O.ai\n\nExplainable AI (XAI)\n\nMethods like SHAP, LIME help interpret complex models\nGreater trust and transparency in predictions\n\nFederated & Privacy-Preserving Learning\n\nLearning across decentralized data sources\nPreserves user privacy (e.g., in mobile devices)\n\nReal-Time & Edge ML\n\nML models running on low-power devices\nApplications: smart cameras, IoT, mobile health tracking\n\nModels trained on diverse tasks and data types combining text, image, audio (e.g., CLIP, Gemini)"
+  },
+  {
+    "objectID": "index.html#supervised-vs.-unsupervised-learning",
+    "href": "index.html#supervised-vs.-unsupervised-learning",
+    "title": "Introduction to Machine Learning",
+    "section": "Supervised vs. Unsupervised Learning",
+    "text": "Supervised vs. Unsupervised Learning\n\nSupervised learning relies on labeled data for training models, making it effective for tasks such as spam detection and medical diagnosis.\nIn contrast, unsupervised learning discovers hidden patterns in unlabeled data, commonly used in customer segmentation and anomaly detection."
+  },
+  {
+    "objectID": "index.html#machine-learning-vs.-statistical-learning-1",
+    "href": "index.html#machine-learning-vs.-statistical-learning-1",
+    "title": "Introduction to Machine Learning",
+    "section": "Machine learning vs. Statistical learning",
+    "text": "Machine learning vs. Statistical learning\n\nStatistical learning\n\nUsed to explain relationships between variables and for statistical inference\nHigh interpretability at the cost of limited predictive power\n\nMachine learning\n\nMainly used for prediction\nHigh predictive power at the cost of interpretability"
+  },
+  {
+    "objectID": "index.html#supervised-vs.-unsupervised-learning-1",
+    "href": "index.html#supervised-vs.-unsupervised-learning-1",
+    "title": "Introduction to Machine Learning",
+    "section": "Supervised vs. Unsupervised Learning",
+    "text": "Supervised vs. Unsupervised Learning\n\nMultiplicity of Model Hyperparameters\n\nLinear Model (OLS): no parameters\nK-NN: k - number of neighbours\nDecision Tree: cp, minbucket, minsplit, maxdepth\nRandom Forest: cp, minbucket, minsplit, maxdepth, ntree, mtry\n\nMultiplicity of Algorithms\n\nDecision Tree: CART, ID3, C4.5, C5.0, CHAID\nRandom Forest: Bagging, Random Patches, Random Subspaces, Pasting"
+  },
+  {
+    "objectID": "index.html#hyperparameters",
+    "href": "index.html#hyperparameters",
+    "title": "Introduction to Machine Learning",
+    "section": "Hyperparameters",
+    "text": "Hyperparameters\n\nHyperparameters in machine learning are the settings or configurations that you set before training a model — they control how the model learns from data.\nThey are not learned from the data directly, but rather are set manually or through tuning.\nThey significantly influence:\n\nModel accuracy\nTraining time\nOverfitting or underfitting"
+  }
+]
