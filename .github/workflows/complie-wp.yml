@@ -26,7 +26,19 @@ jobs:
       #    Rscript -e 'install.packages(c("tidyverse", "quarto", "tinytex"), repos = "https://cloud.r-project.org")'
       #    Rscript -e 'tinytex::install_tinytex()'
 
-      # Step 3: Compile document
+      # Step 4: Set up Python
+      #- name: Set up Python
+      #  uses: actions/setup-python@v5
+      #  with:
+      #    python-version: '3.11'  # Change to the desired version
+
+      # Step 5: Install Python dependencies
+      #- name: Install Python packages
+      #  run: |
+      #    python -m pip install --upgrade pip
+      #    pip install pandas  # Add more packages if needed
+
+      # Step 6: Compile document
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
