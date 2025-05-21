@@ -21,10 +21,10 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         
       # Step 3: Install R dependencies
-      #- name: Install R packages
-      #  run: |
-      #    Rscript -e 'install.packages(c("tidyverse", "quarto", "tinytex"), repos = "https://cloud.r-project.org")'
-      #    Rscript -e 'tinytex::install_tinytex()'
+      - name: Install R packages
+        run: |
+         Rscript -e 'install.packages(c("tidyverse", "quarto", "tinytex","ModelMetrics"), repos = "https://cloud.r-project.org")'
+         Rscript -e 'tinytex::install_tinytex()'
 
       # Step 4: Set up Python
       #- name: Set up Python
