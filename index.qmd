@@ -18,7 +18,9 @@ format:
 
 # Introduction {background-image="Images/TemplateSL2.png"}
 
-## Purpose and Scope of Machine Learning {background-image="Images/TemplateSL2.png"}
+## 
+
+### Purpose and Scope of Machine Learning {background-image="Images/TemplateSL2.png"}
 
 * What is the purpose of Machine Learning?
   * Learn patterns from data automatically
