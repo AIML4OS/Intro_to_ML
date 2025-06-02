@@ -1,9 +1,9 @@
 [
   {
-    "objectID": "index.html#purpose-and-scope-of-machine-learning",
-    "href": "index.html#purpose-and-scope-of-machine-learning",
+    "objectID": "index.html#section",
+    "href": "index.html#section",
     "title": "Introduction to Machine Learning",
-    "section": "Purpose and Scope of Machine Learning",
+    "section": "",
     "text": "Purpose and Scope of Machine Learning\n\nWhat is the purpose of Machine Learning?\n\nLearn patterns from data automatically\nMake predictions or decisions without explicit programming\nImprove performance over time as more data becomes available\n\nKey Goals\n\nPrediction – Estimate future or unknown outcomes\nClassification – Assign labels to data points\nClustering – Discover hidden groupings in data\nAnomaly detection – Identify unusual patterns or events\n\nScope of Applications\n\nHealthcare, finance, marketing, industry, security, and more\nExamples: spam filtering, disease diagnosis, fraud detection, recommendation systems\n\nCore Idea\n\n“Let the data speak for itself.”"
   },
   {
