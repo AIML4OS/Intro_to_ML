@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.7.31">
 
   <meta name="author" content="Sebastian Wójcik">
-  <meta name="dcterms.date" content="2025-06-02">
+  <meta name="dcterms.date" content="2025-06-16">
   <title>Intro_to_ML – Introduction to Machine Learning</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -128,7 +128,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-color="#4e4e4e" data-background-image="Images/Template1.png" slide-number="true" slide-number-format="%current%" class="quarto-title-block center">
+<section id="title-slide" data-background-color="#4e4e4e" data-background-image="Images/Template2.png" slide-number="true" slide-number-format="%current%" class="quarto-title-block center">
   <h1 class="title">Introduction to Machine Learning</h1>
 
 <div class="quarto-title-authors">
@@ -139,134 +139,177 @@ Sebastian Wójcik
 </div>
 </div>
 
-  <p class="date">2025-06-02</p>
+  <p class="date">2025-06-16</p>
 </section>
 <section>
-<section id="introduction" class="title-slide slide level1 center" data-background-image="Images/TemplateSL2.png">
-<h1>Introduction</h1>
-
+<section id="section" class="title-slide slide level1 scrollable center" data-background-image="Images/TemplateSL_bok.png">
+<h1></h1>
+<!-- Slide – Level 1 (title only on the page) -->
+<div class="slide-header">
+Introduction
+</div>
 </section>
-<section id="section" class="slide level2">
+<section id="section-1" class="slide level2" data-background-image="Images/TemplateSL_bok.png">
 <h2></h2>
-<h3 data-background-image="Images/TemplateSL2.png" id="purpose-and-scope-of-machine-learning">Purpose and Scope of Machine Learning</h3>
+<!-- Slide – level 2 (title and content -->
+<div class="slide-header">
+Purpose and Scope of Machine Learning
+</div>
+<div class="slide-content">
+<p><!-- content; it is recommended to place paragraphs inside <p> code blocks) --></p>
 <ul>
-<li class="fragment">What is the purpose of Machine Learning?
+<li class="fragment"><p>What is the purpose of Machine Learning?</p>
 <ul>
-<li class="fragment">Learn patterns from data automatically</li>
-<li class="fragment">Make predictions or decisions without explicit programming</li>
-<li class="fragment">Improve performance over time as more data becomes available</li>
+<li class="fragment"><p>Learn patterns from data automatically</p></li>
+<li class="fragment"><p>Make predictions or decisions without explicit programming</p></li>
+<li class="fragment"><p>Improve performance over time as more data becomes available</p></li>
 </ul></li>
-<li class="fragment">Key Goals
+<li class="fragment"><p>Key Goals</p>
 <ul>
-<li class="fragment">Prediction – Estimate future or unknown outcomes</li>
-<li class="fragment">Classification – Assign labels to data points</li>
-<li class="fragment">Clustering – Discover hidden groupings in data</li>
-<li class="fragment">Anomaly detection – Identify unusual patterns or events</li>
+<li class="fragment"><p>Prediction – Estimate future or unknown outcomes</p></li>
+<li class="fragment"><p>Classification – Assign labels to data points</p></li>
+<li class="fragment"><p>Clustering – Discover hidden groupings in data</p></li>
+<li class="fragment"><p>Anomaly detection – Identify unusual patterns or events</p></li>
 </ul></li>
-<li class="fragment">Scope of Applications
+<li class="fragment"><p>Scope of Applications</p>
 <ul>
-<li class="fragment">Healthcare, finance, marketing, industry, security, and more</li>
-<li class="fragment">Examples: spam filtering, disease diagnosis, fraud detection, recommendation systems</li>
+<li class="fragment"><p>Healthcare, finance, marketing, industry, security, and more</p></li>
+<li class="fragment"><p>Examples: spam filtering, disease diagnosis, fraud detection, recommendation systems</p></li>
 </ul></li>
-<li class="fragment">Core Idea
+<li class="fragment"><p>Core Idea</p>
 <ul>
 <li class="fragment">“Let the data speak for itself.”</li>
 </ul></li>
 </ul>
+</div>
 </section>
-<section id="recent-advancements-in-machine-learning" class="slide level2" data-background-image="Images/TemplateSL2.png">
-<h2>Recent Advancements in Machine Learning</h2>
+<section id="section-2" class="slide level2" data-background-image="Images/TemplateSL_bok.png">
+<h2></h2>
+<!-- Slide – level 2 (title and content -->
+<div class="slide-header">
+Recent Advancements in Machine Learning
+</div>
+<div class="slide-content">
+<p><!-- content; it is recommended to place paragraphs inside <p> code blocks) --></p>
 <ul>
-<li class="fragment">Deep Learning Breakthroughs
+<li class="fragment"><p>Deep Learning Breakthroughs</p>
 <ul>
-<li class="fragment">Transformer architectures (e.g., BERT, GPT) revolutionized NLP</li>
-<li class="fragment">Diffusion models for image generation (e.g., DALL·E, Stable Diffusion)</li>
-<li class="fragment">Self-supervised learning for more efficient training</li>
+<li class="fragment"><p>Transformer architectures (e.g., BERT, GPT) revolutionized NLP</p></li>
+<li class="fragment"><p>Diffusion models for image generation (e.g., DALL·E, Stable Diffusion)</p></li>
+<li class="fragment"><p>Self-supervised learning for more efficient training</p></li>
 </ul></li>
-<li class="fragment">Automated Machine Learning (AutoML)
+<li class="fragment"><p>Automated Machine Learning (AutoML)</p>
 <ul>
-<li class="fragment">Model selection, tuning, and deployment made easier</li>
-<li class="fragment">Tools: Google AutoML, Auto-sklearn, H2O.ai</li>
+<li class="fragment"><p>Model selection, tuning, and deployment made easier</p></li>
+<li class="fragment"><p>Tools: Google AutoML, Auto-sklearn, H2O.ai</p></li>
 </ul></li>
-<li class="fragment">Explainable AI (XAI)
+<li class="fragment"><p>Explainable AI (XAI)</p>
 <ul>
-<li class="fragment">Methods like SHAP, LIME help interpret complex models</li>
-<li class="fragment">Greater trust and transparency in predictions</li>
+<li class="fragment"><p>Methods like SHAP, LIME help interpret complex models</p></li>
+<li class="fragment"><p>Greater trust and transparency in predictions</p></li>
 </ul></li>
-<li class="fragment">Federated &amp; Privacy-Preserving Learning
+<li class="fragment"><p>Federated &amp; Privacy-Preserving Learning</p>
 <ul>
-<li class="fragment">Learning across decentralized data sources</li>
-<li class="fragment">Preserves user privacy (e.g., in mobile devices)</li>
+<li class="fragment"><p>Learning across decentralized data sources</p></li>
+<li class="fragment"><p>Preserves user privacy (e.g., in mobile devices)</p></li>
 </ul></li>
-<li class="fragment">Real-Time &amp; Edge ML
+<li class="fragment"><p>Real-Time &amp; Edge ML</p>
 <ul>
-<li class="fragment">ML models running on low-power devices</li>
-<li class="fragment">Applications: smart cameras, IoT, mobile health tracking</li>
+<li class="fragment"><p>ML models running on low-power devices</p></li>
+<li class="fragment"><p>Applications: smart cameras, IoT, mobile health tracking</p></li>
 </ul></li>
-<li class="fragment">Models trained on diverse tasks and data types combining text, image, audio (e.g., CLIP, Gemini)</li>
+<li class="fragment"><p>Models trained on diverse tasks and data types combining text, image, audio (e.g., CLIP, Gemini)</p></li>
 </ul>
+</div>
 </section>
-<section id="supervised-vs.-unsupervised-learning" class="slide level2" data-background-image="Images/TemplateSL2.png">
-<h2>Supervised vs.&nbsp;Unsupervised Learning</h2>
+<section id="section-3" class="slide level2" data-background-image="Images/TemplateSL_bok.png">
+<h2></h2>
+<!-- Slide – level 2 (title and content -->
+<div class="slide-header">
+Supervised vs.&nbsp;Unsupervised Learning
+</div>
+<div class="slide-content">
+<p><!-- content; it is recommended to place paragraphs inside <p> code blocks) --></p>
 <ul>
-<li class="fragment">Supervised learning relies on labeled data for training models, making it effective for tasks such as spam detection and medical diagnosis.</li>
-<li class="fragment">In contrast, unsupervised learning discovers hidden patterns in unlabeled data, commonly used in customer segmentation and anomaly detection.</li>
+<li class="fragment"><p>Supervised learning relies on labeled data for training models, making it effective for tasks such as spam detection and medical diagnosis.</p></li>
+<li class="fragment"><p>In contrast, unsupervised learning discovers hidden patterns in unlabeled data, commonly used in customer segmentation and anomaly detection.</p></li>
 </ul>
+</div>
 </section></section>
-<section id="machine-learning-vs.-statistical-learning" class="title-slide slide level1 center" data-background-image="Images/TemplateSL2.png">
-<h1>Machine learning vs.&nbsp;Statistical learning</h1>
-
-</section>
-
 <section>
-<section id="section-1" class="title-slide slide level1 center" data-background-image="Images/TemplateSL2.png">
+<section id="section-4" class="title-slide slide level1 center" data-background-image="Images/TemplateSL_bok.png">
 <h1></h1>
+<!-- Slide – Level 1 (title only on the page) -->
+<div class="slide-header">
+Machine learning vs.&nbsp;Statistical learning
+</div>
 <p><img data-src="Images/MLvsSL.jpg" style="display: block; margin: auto; width: 60%; height: 60%;"></p>
 </section>
-<section id="machine-learning-vs.-statistical-learning-1" class="slide level2" data-background-image="Images/TemplateSL2.png">
-<h2>Machine learning vs.&nbsp;Statistical learning</h2>
+<section id="section-5" class="slide level2" data-background-image="Images/TemplateSL_bok.png">
+<h2></h2>
+<!-- Slide – level 2 (title and content -->
+<div class="slide-header">
+Machine learning vs.&nbsp;Statistical learning
+</div>
+<div class="slide-content">
+<p><!-- content; it is recommended to place paragraphs inside <p> code blocks) --></p>
 <ul>
-<li class="fragment">Statistical learning
+<li class="fragment"><p>Statistical learning</p>
 <ul>
-<li class="fragment">Used to explain relationships between variables and for statistical inference</li>
-<li class="fragment">High interpretability at the cost of limited predictive power</li>
+<li class="fragment"><p>Used to explain relationships between variables and for statistical inference</p></li>
+<li class="fragment"><p>High interpretability at the cost of limited predictive power</p></li>
 </ul></li>
-<li class="fragment">Machine learning
+<li class="fragment"><p>Machine learning</p>
 <ul>
-<li class="fragment">Mainly used for prediction</li>
-<li class="fragment">High predictive power at the cost of interpretability</li>
+<li class="fragment"><p>Mainly used for prediction</p></li>
+<li class="fragment"><p>High predictive power at the cost of interpretability</p></li>
 </ul></li>
 </ul>
+</div>
 </section>
-<section id="supervised-vs.-unsupervised-learning-1" class="slide level2" data-background-image="Images/TemplateSL2.png">
-<h2>Supervised vs.&nbsp;Unsupervised Learning</h2>
+<section id="section-6" class="slide level2" data-background-image="Images/TemplateSL_bok.png">
+<h2></h2>
+<!-- Slide – level 2 (title and content -->
+<div class="slide-header">
+Supervised vs.&nbsp;Unsupervised Learning
+</div>
+<div class="slide-content">
+<p><!-- content; it is recommended to place paragraphs inside <p> code blocks) --></p>
 <ul>
-<li class="fragment">Multiplicity of Model Hyperparameters
+<li class="fragment"><p>Multiplicity of Model Hyperparameters</p>
 <ul>
-<li class="fragment">Linear Model (OLS): no parameters</li>
-<li class="fragment">K-NN: k - number of neighbours</li>
-<li class="fragment">Decision Tree: cp, minbucket, minsplit, maxdepth</li>
-<li class="fragment">Random Forest: cp, minbucket, minsplit, maxdepth, ntree, mtry</li>
+<li class="fragment"><p>Linear Model (OLS): no parameters</p></li>
+<li class="fragment"><p>K-NN: k - number of neighbours</p></li>
+<li class="fragment"><p>Decision Tree: cp, minbucket, minsplit, maxdepth</p></li>
+<li class="fragment"><p>Random Forest: cp, minbucket, minsplit, maxdepth, ntree, mtry</p></li>
 </ul></li>
-<li class="fragment">Multiplicity of Algorithms
+<li class="fragment"><p>Multiplicity of Algorithms</p>
 <ul>
-<li class="fragment">Decision Tree: CART, ID3, C4.5, C5.0, CHAID</li>
-<li class="fragment">Random Forest: Bagging, Random Patches, Random Subspaces, Pasting</li>
+<li class="fragment"><p>Decision Tree: CART, ID3, C4.5, C5.0, CHAID</p></li>
+<li class="fragment"><p>Random Forest: Bagging, Random Patches, Random Subspaces, Pasting</p></li>
 </ul></li>
 </ul>
+</div>
 </section>
-<section id="hyperparameters" class="slide level2" data-background-image="Images/TemplateSL2.png">
-<h2>Hyperparameters</h2>
+<section id="section-7" class="slide level2" data-background-image="Images/TemplateSL_bok.png">
+<h2></h2>
+<!-- Slide – level 2 (title and content -->
+<div class="slide-header">
+Hyperparameters
+</div>
+<div class="slide-content">
+<p><!-- content; it is recommended to place paragraphs inside <p> code blocks) --></p>
 <ul>
-<li class="fragment">Hyperparameters in machine learning are the settings or configurations that you set before training a model — they control how the model learns from data.</li>
-<li class="fragment">They are not learned from the data directly, but rather are set manually or through tuning.</li>
-<li class="fragment">They significantly influence:
+<li class="fragment"><p>Hyperparameters in machine learning are the settings or configurations that you set before training a model — they control how the model learns from data.</p></li>
+<li class="fragment"><p>They are not learned from the data directly, but rather are set manually or through tuning.</p></li>
+<li class="fragment"><p>They significantly influence:</p>
 <ul>
-<li class="fragment">Model accuracy</li>
-<li class="fragment">Training time</li>
-<li class="fragment">Overfitting or underfitting</li>
+<li class="fragment"><p>Model accuracy</p></li>
+<li class="fragment"><p>Training time</p></li>
+<li class="fragment"><p>Overfitting or underfitting</p></li>
 </ul></li>
 </ul>
+</div>
 
 
 </section></section>
@@ -451,9 +494,9 @@ Sebastian Wójcik
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 2500,
 
-        height: 700,
+        height: 1600,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
