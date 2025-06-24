@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Machine Learning and other stuff"
+title: "Introduction to Machine Learning"
 author: "Sebastian Wójcik"
 date: "today"
 format:
@@ -19,7 +19,7 @@ format:
 
 # {.scrollable background-image="Images/TemplateSL_bok.png"}
 <!-- Slide – Level 1 (title only on the page) -->
-<div class="slide-header">Introduction to</div>
+<div class="slide-header">Introduction</div>
 
 
 ## {background-image="Images/TemplateSL_bok.png"}
